@@ -1,0 +1,7 @@
+<nav>
+  <ul class="nav--list">
+    <li class="nav--list-item" *ngFor="let item of links">
+        <a mat-button routerLink="{{item.path}}" routerLinkActive="active">{{item.label}}</a>
+    </li>
+  </ul>
+</nav>
