@@ -6,15 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav.component.scss']
 })
 export class NavComponent {
-    
     links = [
         { path: '/', label: 'Home' },
         { path: '/about', label: 'About' },
-        { path: '/services', label: 'Services' },
         { path: '/examples', label: 'Examples' }
     ]
+  constructor() { }
 
-  constructor() { 
+  ngOnInit() {
   }
 
 }
